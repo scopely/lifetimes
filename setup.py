@@ -3,8 +3,8 @@
 import os
 from setuptools import setup
 
-
-exec(compile(open("lifetimes/version.py").read(), "lifetimes/version.py", "exec"))
+#exec(compile(open("lifetimes/version.py").read(), "lifetimes/version.py", "exec"))
+version = '0.11.1.dev0'
 
 
 readme_path = os.path.join(os.path.dirname(__file__), "README.md")
@@ -14,7 +14,7 @@ long_description = open(readme_path).read()
 
 
 setup(
-    name="Lifetimes",
+    name="Lifetimes-Scopely",
     version=__version__,
     description="Measure customer lifetime value in Python",
     author="Cam Davidson-Pilon",
