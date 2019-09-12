@@ -1,11 +1,9 @@
 # Changelog
 
-### 0.11.2
- - MBG/CNBD-k model
-
 ### 0.11.1
  - bump the Pandas requirements to >= 0.24.0. This should have been done in 0.11.0
  - suppress some warnings from autograd.
+ - MBG/CNBD-k model
 
 ### 0.11.0
  - Move most models (all but Pareto) to autograd for automatic differentiation of their likelihood. This results in faster (at least 3x) and more successful convergence, plus allows for some really exciting extensions (coming soon).
