@@ -5,6 +5,12 @@
  - suppress some warnings from autograd.
 
 ### 0.11.0
+0.11.2 (unreleased)
+                   
+
+- Nothing changed yet.
+
+
 0.11.1 (2019-09-12)
  - `GammaGammaFitter`, `BetaGeoFitter`, `ModifiedBetaGeoFitter` and `BetaGeoBetaBinomFitter` have three new attributes: `confidence_interval_`, `variance_matrix_` and `standard_errors_`
  - `params_` on fitted models is not longer an OrderedDict, but a Pandas Series
