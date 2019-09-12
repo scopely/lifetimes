@@ -15,7 +15,7 @@ long_description = open(readme_path).read()
 
 setup(
     name="Lifetimes-Scopely",
-    version=__version__,
+    version=version,
     description="Measure customer lifetime value in Python",
     author="Cam Davidson-Pilon",
     author_email="cam.davidson.pilon@gmail.com",
