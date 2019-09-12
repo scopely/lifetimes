@@ -6,7 +6,7 @@
  - MBG/CNBD-k model
 
 ### 0.11.0
- - Move most models (all but Pareto) to autograd for automatic differentiation of their likelihood. This results in faster (at least 3x) and more successful convergence, plus allows for some really exciting extensions (coming soon).
+0.11.1 (2019-09-12)
  - `GammaGammaFitter`, `BetaGeoFitter`, `ModifiedBetaGeoFitter` and `BetaGeoBetaBinomFitter` have three new attributes: `confidence_interval_`, `variance_matrix_` and `standard_errors_`
  - `params_` on fitted models is not longer an OrderedDict, but a Pandas Series
  - `GammaGammaFitter` can accept a `weights` argument now.
