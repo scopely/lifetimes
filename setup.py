@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os
-from setuptools import setup
+from setuptools import setup, find_packages
 
-
-exec(compile(open("lifetimes/version.py").read(), "lifetimes/version.py", "exec"))
+#exec(compile(open("lifetimes/version.py").read(), "lifetimes/version.py", "exec"))
+version = '0.11.1.dev0'
 
 
 readme_path = os.path.join(os.path.dirname(__file__), "README.md")
@@ -14,12 +14,12 @@ long_description = open(readme_path).read()
 
 
 setup(
-    name="Lifetimes",
-    version=__version__,
+    name="lifetimes-scopely",
+    version=version,
     description="Measure customer lifetime value in Python",
     author="Cam Davidson-Pilon",
     author_email="cam.davidson.pilon@gmail.com",
-    packages=["lifetimes", "lifetimes.datasets"],
+    packages=find_packages(),
     license="MIT",
     keywords="customer lifetime value, clv, ltv, BG/NBD, pareto/NBD, frequency, recency",
     url="https://github.com/CamDavidsonPilon/lifetimes",
