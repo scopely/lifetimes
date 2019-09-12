@@ -4,7 +4,7 @@ import os
 from setuptools import setup, find_packages
 
 #exec(compile(open("lifetimes/version.py").read(), "lifetimes/version.py", "exec"))
-version = '0.11.2.dev0'
+version = '0.11.2'
 
 
 readme_path = os.path.join(os.path.dirname(__file__), "README.md")
