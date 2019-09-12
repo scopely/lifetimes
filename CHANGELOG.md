@@ -5,6 +5,12 @@
  - suppress some warnings from autograd.
 
 ### 0.11.0
+0.11.3 (unreleased)
+                   
+
+- Nothing changed yet.
+
+
 0.11.2 (2019-09-12)
                    
 
