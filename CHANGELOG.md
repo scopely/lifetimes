@@ -1,20 +1,13 @@
 # Changelog
 
+### 0.11.2
+ - MBG/CNBD-k model
+
 ### 0.11.1
  - bump the Pandas requirements to >= 0.24.0. This should have been done in 0.11.0
  - suppress some warnings from autograd.
 
 ### 0.11.0
-0.11.3 (unreleased)
-                   
-
-- Nothing changed yet.
-
-
-0.11.2 (2019-09-12)
-                   
-
-- Nothing changed yet.
 
 
 0.11.1 (2019-09-12)
